@@ -1,0 +1,72 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo { 
+    display: block;
+    margin: 0 auto; 
+    padding: 50px 10px 20px 50px;
+}
+.base { 
+    display: block;
+    margin: 0 auto; 
+    padding: 50px 10px 20px 50px;
+}
+.kinds {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mainpart IMG {
+    position: relative;
+}
+
+.yourcoffee { 
+    top: 50px; 
+    z-index: 15; 
+    margin: 150px 0 100px 10px;
+}
+
+.image {
+    left: -100px; 
+    top: 14px; 
+    z-index: 1;
+}
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin: 0 0 0px 25px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.9;
+}
+
+nav .menu:hover {
+    text-decoration:underline;
+    background: rgb(148, 122, 50);
+    opacity: 0.5;
+}
+
+.aside-menu {
+    background-color:#415167; 
+    padding: 60px;
+    width: 20px;
+    float: right;
+    
+}
+
+a:link {
+    color:#424551;
+}
+
+a:active { 
+    color: rgb(182, 113, 49); 
+}
+

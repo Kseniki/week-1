@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4016/4016972.png" type="image/png">
+    <title>Cats</title>
+</head>
+<body>
+    <form> 
+        <fieldset>
+            <legend>Имя</legend>
+                <label for="nickname">Кличка питомца</label>
+                <input type="text" id="nickname" />
+            <p>
+                <label for="name">Имя владельца</label>
+                <input type="text" id="name" /> 
+            </p>
+                <label for="contacts">Контакты владельца</label>
+                <input type="text" id="contacts" /> 
+        </fieldset>
+            <p>Выберите породу</p>
+        <select> 
+            <option value="1">Мейн-кун</option>
+            <option value="2">Перс</option>
+            <option value="3">Рэгдолл</option>
+            <option value="4">Сфинкс</option>
+            <option value="5">Бенгал</option>
+        </select>
+            <p>Чем питается?</p>
+            <input type="checkbox" id="dry"/>
+            <label for="dry">Сухой корм</label> <br/>
+            <input type="checkbox" id="wet"/>
+            <label for="wet">Влажный корм</label> <br/>
+            <input type="checkbox" id="natural"/>
+            <label for="natural">Натуральный корм</label>
+        <div>
+            <label>Пол питомца</label> <br/>
+            Самка<input type="radio" name="sex" /> <br/>Самец<input type="radio" name="sex" /> 
+        </div>
+            <p>Комментарий</p>
+            <textarea name="Комментарий" id="comment" cols="50" rows="10"></textarea>
+        <div>Можете добавить фотографию питомца 
+            <input type="file" />
+        </div>
+            <button>Сохранить</button>
+    </form>
+</body>
+
+</html>
